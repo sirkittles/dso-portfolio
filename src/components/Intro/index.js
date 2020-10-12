@@ -11,11 +11,28 @@ const Intro = () => (
       </ImageContainer>
       <IntroContainer>
         <header>
-          <h1>Hello my name is  <b> <br/>Jane Doe</b></h1>
-          <h3>DIGITAL DESIGNER - NEW ZEALAND</h3>
+          <h1>Hello my name is  <b> <br/>Diane So</b></h1>
+          <h3>Software Engineer | Skincare Junkie </h3>
         </header>
         <p>A free, fully responsive gatsby starter template designed by <a target="blank"  href="https://www.twitter.com/matheusquintaes">@matheusquintaes</a> </p>
         <p>You can learn more <a target="blank" href="https://www.gatsbyjs.org/docs/starters/"> about the starters here</a></p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
+        <p>filler filler</p>
       </IntroContainer>
     </Wrapper>
     </> 
@@ -24,7 +41,7 @@ const Intro = () => (
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "intro/photo2.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "intro/DSO.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 386) {
             ...GatsbyImageSharpFluid_noBase64

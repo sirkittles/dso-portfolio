@@ -76,7 +76,7 @@ export const IntroContainer = styled.div`
         margin-bottom: 12px;
         color: var(--gray8);
         b {
-            color: var(--mainColor);
+            color: #357543;
         }
     }
 

@@ -18,9 +18,13 @@ export const Wrapper = styled.nav`
             margin-right: 48px;
             font-size: 18px;
             font-weight: 700;
+            background-color: #133b1c;
+            padding: 0px 10px;
+            border-radius: 5px;
 
             &:hover {
-            color: var(--gray10);
+            color: #133b1c;
+            background-color: white;
             }
 
             svg {
@@ -30,7 +34,7 @@ export const Wrapper = styled.nav`
             }
         }
    }
-
+  
    
    ${media.lessThan("large")`
        ul {

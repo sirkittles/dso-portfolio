@@ -8,7 +8,7 @@ const BackgroundSection = ({children}) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "bg.jpg" }) {
+        desktop: file(relativePath: { eq: "mula-layer.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -23,7 +23,7 @@ const BackgroundSection = ({children}) => (
       return (
         <BackgroundImage
           fluid={imageData}
-          backgroundColor={`#5A67D8`}
+          backgroundColor={(255,255,255, .5)}
         >
            {children}
         </BackgroundImage>
@@ -37,6 +37,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
+  background-color: rgba(255,255,255, .8);
 `
 
 export default StyledBackgroundSection
