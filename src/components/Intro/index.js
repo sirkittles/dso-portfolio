@@ -14,25 +14,11 @@ const Intro = () => (
           <h1>Hello my name is  <b> <br/>Diane So</b></h1>
           <h3>Software Engineer | Skincare Junkie </h3>
         </header>
-        <p>A free, fully responsive gatsby starter template designed by <a target="blank"  href="https://www.twitter.com/matheusquintaes">@matheusquintaes</a> </p>
-        <p>You can learn more <a target="blank" href="https://www.gatsbyjs.org/docs/starters/"> about the starters here</a></p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
-        <p>filler filler</p>
+        <p>This will be where the about me goes, still working</p>
+        <p>Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats.</p>
+        <h1>Skills</h1>
+        <p>This is where the logos will go</p>
+        
       </IntroContainer>
     </Wrapper>
     </> 
